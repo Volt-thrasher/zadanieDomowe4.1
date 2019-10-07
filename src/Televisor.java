@@ -1,15 +1,15 @@
 public class Televisor {
-    boolean tOn;
+    boolean trnOn;
     Televisor(boolean t) {
-
+    trnOn = t;
     }
         void turnOn (Televisor televisor){
-            televisor.tOn = true;
+            trnOn = true;
         }
         void turnOff (Televisor televisor){
-            televisor.tOn = false;
+            trnOn = false;
         }
         void showStatus(Televisor televisor){
-            System.out.println("Turned on? "+televisor.tOn);
+            System.out.println("Turned on? "+trnOn);
         }
 }
