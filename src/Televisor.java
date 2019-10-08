@@ -3,13 +3,13 @@ public class Televisor {
     Televisor(boolean s) {
     status = s;
     }
-        void turnOn (Televisor televisor){
+        void turnOn (){
             status = true;
         }
-        void turnOff (Televisor televisor){
+        void turnOff (){
             status = false;
         }
-        void showStatus(Televisor televisor){
+        void showStatus(){
             System.out.println("Turned on? "+status);
         }
 }
