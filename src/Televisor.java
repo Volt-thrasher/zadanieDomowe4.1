@@ -1,15 +1,15 @@
 public class Televisor {
     boolean status;
     Televisor(boolean s) {
-    status = s;
+        status = s;
     }
-        void turnOn (){
+    void turnOn (){
             status = true;
         }
-        void turnOff (){
+    void turnOff (){
             status = false;
         }
-        void showStatus(){
-            System.out.println("Turned on? "+status);
+    void showStatus(){
+        System.out.println("Turned on? "+status);
         }
 }
